@@ -1,0 +1,8 @@
+<mat-slider disabled [attr.disabled]="(isDisabled)?isDisabled:null" min="1" max="10" value="1"></mat-slider>
+<br>
+{{isDisabled | json}}
+<br>
+<button mat-button (click)="onClick()">Change</button>
+<!-- Copyright 2019 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
